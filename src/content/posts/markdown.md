@@ -2,7 +2,7 @@
 title: Markdown Example
 published: 1111-09-10
 description: A simple example of a Markdown blog post.
-tags: [Markdown, 博客, 演示]
+tags: [Markdown, 示例]
 category: 示例
 draft: false
 ---

@@ -3,7 +3,7 @@ title: Fuwari 简易指南
 published: 1111-11-12
 description: "如何使用此博客模板。"
 image: "./cover.jpeg"
-tags: ["Fuwari", "博客", "定制"]
+tags: [示例]
 category: 示例
 draft: false
 ---

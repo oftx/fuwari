@@ -2,7 +2,7 @@
 title: 表达代码示例
 published: 1111-05-06
 description: 在 Markdown 中使用 Expressive Code 的代码块展示。
-tags: [Markdown, 博客, 演示]
+tags: [Markdown, 示例]
 category: 示例
 draft: false
 ---

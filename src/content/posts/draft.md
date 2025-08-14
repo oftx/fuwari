@@ -1,7 +1,7 @@
 ---
 title: 草稿示例
 published: 1111-01-02
-tags: [Markdown, 博客, 演示]
+tags: [Markdown, 示例]
 category: 示例
 draft: true
 ---
