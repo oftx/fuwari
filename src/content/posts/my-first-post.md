@@ -1,5 +1,5 @@
 ---
-title: 欢迎体验我的博客
+title: 欢迎来到我的博客
 published: 2025-08-14
 description: 这里 = 备忘录 / 记事本 / 收藏夹 / 剪贴板
 tags: [记录]
