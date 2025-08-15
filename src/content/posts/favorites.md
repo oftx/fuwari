@@ -1,7 +1,7 @@
 ---
 title: 网页收藏夹
 published: 2025-08-15
-description: 记录一些有用的网页，用于快捷访问收藏的网站
+description: 记录一些有用的网页，以便快捷访问这些网站
 image: ''
 tags: [网页]
 category: 私藏
