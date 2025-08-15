@@ -1,12 +1,20 @@
 ---
 title: 网页收藏夹
-published: 2025-08-15
+published: 1970-01-01
 description: 记录一些有用的网页，以便快捷访问这些网站
 image: ''
 tags: [网页]
 category: 私藏
 draft: false 
 ---
+
+## Blog
+
+- [**AcoFork** Blog Z](https://www.2x.nz/)  
+- [Blog - **atpX**](https://atpx.com/blog/)  
+- [零度博客](https://www.freedidi.com/)  
+- [宏尘极客|笔记](https://www.hcjike.com/)
+
 
 ## 影子图书馆
 
@@ -66,6 +74,12 @@ draft: false
 - [卜易居在线算命](https://www.buyiju.com/cm/enname/)
 
 
+## 博客相关
+
+- [萌备跃迁](https://travel.moe/go)
+- [揪蝉](https://www.jiuchan.org/)
+- [十年之约](https://www.foreverblog.cn/blogs.html)
+
 ## 论坛
 
 - [全球主机交流论坛 -  Powered by Discuz!](https://hostloc.com/forum.php) 🪄  
@@ -76,21 +90,7 @@ draft: false
 - [恩山无线论坛 -  Powered by Discuz!](https://www.right.com.cn/forum/)  
 
 
-## VPS
-
-- [DigitalOcean](https://www.digitalocean.com/)
-
-
-## Blog
-
-- [**AcoFork** Blog Z](https://www.2x.nz/)  
-- [Blog - **atpX**](https://atpx.com/blog/)  
-
-
 ## 浏览器插件
-
-### 通用
-
 - [Dark Reader](https://microsoftedge.microsoft.com/addons/detail/ifoakfbpdcdoeenechcleahebpibofpc)  
 - [Tampermonkey](https://microsoftedge.microsoft.com/addons/detail/iikmkjmpaadaobahmlepeloendndfphd)  
 - [SingleFile](https://microsoftedge.microsoft.com/addons/detail/singlefile/efnbkdcfmcmnhlkaijjjmhjjgladedno)  
@@ -99,9 +99,6 @@ draft: false
 - [Custom UserAgent String](https://microsoftedge.microsoft.com/addons/detail/adhebfnpnbbncjlfhcjjgollojoklklk)  
 - [Authenticator: 2FA Client](https://microsoftedge.microsoft.com/addons/detail/ocglkepbibnalbgmbachknglpdipeoio)  
 - [Header Editor](https://microsoftedge.microsoft.com/addons/detail/afopnekiinpekooejpchnkgfffaeceko)  
-
-### 特定平台
-
 - [BewlyBewly](https://github.com/hakadao/BewlyBewly) `(哔哩哔哩)`  
 - [bilibili哔哩哔哩下载助手](https://microsoftedge.microsoft.com/addons/detail/bilibili%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B/cagicamgdlbdmonbclkpgiabbldodgae) `(哔哩哔哩)`  
 - [B站图床](https://chromewebstore.google.com/detail/b%E7%AB%99%E5%9B%BE%E5%BA%8A/domljbndjbjgpkhdbmfgmiclggdfojnd) 🪄 `(哔哩哔哩)`  
@@ -118,6 +115,12 @@ draft: false
 
 - [萌国ICP备案](https://icp.gov.moe/)  
 - [喵星 ICP 备案](https://icp.hentioe.dev/)  
+- [鱼 ICP 备案系统](https://icp.fishcpy.top/)
+- [雾ICP备案中心](https://icp.wudu.ltd/)
+- [信网联盟](https://icp.xnet.ren/)
+- [云团子ICP备案中心](https://icp.xn--kiv.fun/)
+- [樱备案](https://icp.sakura.ink/)
+- [茶备案](https://icp.redcha.cn/)
 - [ICP/IP地址/域名信息备案管理系统](https://beian.miit.gov.cn/) 🇨🇳  
 
 
