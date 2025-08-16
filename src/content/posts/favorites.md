@@ -42,6 +42,12 @@ draft: false
 - [PPBC中国植物图像库](https://ppbc.iplant.cn/)
 
 
+## 工具
+
+- [Text To Speech](https://www.text-to-speech.cn/)
+- [Quick Reference](https://quickref.cn/)
+
+
 ## macOS
 
 - [Appstorrent](https://appstorrent.org/)
@@ -140,7 +146,7 @@ draft: false
 - [TradingView](https://cn.tradingview.com/chart/cnAQaaaA/?symbol=BITSTAMP%3ABTCUSD)
 
 
-## 综合
+## 未知类别
 
 - [维基百科](https://zh.wikipedia.org/) 🪄  
 - [互联网档案馆](https://archive.org/) 🪄  
