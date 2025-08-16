@@ -1,6 +1,5 @@
 import rss from "@astrojs/rss";
 import { getSortedPosts } from "@utils/content-utils";
-import { url } from "@utils/url-utils";
 import type { APIContext } from "astro";
 import MarkdownIt from "markdown-it";
 import sanitizeHtml from "sanitize-html";
@@ -26,7 +25,13 @@ function stripInvalidXmlChars(str: string): string {
 
 export async function GET(context: APIContext) {
 	const blog = await getSortedPosts();
-	const siteUrl = context.site ?? new URL(siteConfig.site);
+
+	const siteUrl = context.site;
+	if (!siteUrl) {
+		throw new Error(
+			'请在 `astro.config.mjs` 文件中设置 `site` 选项，这是生成有效 RSS feed 的必要条件。',
+		);
+	}
 
 	const feedItems = [];
 
@@ -43,12 +48,8 @@ export async function GET(context: APIContext) {
 			const src = img.getAttribute("src");
 			if (!src) continue;
 
-			const assetPathIdentifier = "/assets/images/";
-			const pathIndex = src.indexOf(assetPathIdentifier);
-
-			if (pathIndex !== -1) {
-				const imagePathSuffix = src.substring(pathIndex); // e.g., /assets/images/foo.png
-				const imageGlobKey = `/src${imagePathSuffix}`;    // e.g., /src/assets/images/foo.png
+			if (src.startsWith("/assets/images/")) {
+				const imageGlobKey = `/src${src}`; // e.g., /src/assets/images/foo.png
 				const imageImport = imagesGlob[imageGlobKey];
 
 				if (imageImport) {
@@ -57,7 +58,6 @@ export async function GET(context: APIContext) {
 					img.setAttribute("src", new URL(optimizedImg.src, siteUrl).href);
 				}
 			}
-
 			else if (src.startsWith("/")) {
 				img.setAttribute("src", new URL(src, siteUrl).href);
 			}
@@ -67,7 +67,7 @@ export async function GET(context: APIContext) {
 			title: post.data.title,
 			pubDate: post.data.published,
 			description: post.data.description || "",
-			link: url(`/posts/${post.slug}/`),
+			link: new URL(`/posts/${post.slug}/`, siteUrl).href,
 			content: sanitizeHtml(html.toString(), {
 				allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img"]),
 			}),
