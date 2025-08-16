@@ -19,6 +19,7 @@ draft: false
 - [你是否设想过在浏览器里玩千恋万花](https://fuwari.oh1.top/posts/serenbanka/serenbanka-web/) `(yCENzh's Blog)` `(2025-08-03)`
 - [Fuwari静态博客搭建教程](https://www.2x.nz/posts/fuwari/) `(AcoFork Blog Z)` `(2025-04-30)`
 
+
 ### 图片
 
 - [Yuri图片一览](https://kanochan.net/archives/3587.html) `(Kano酱的博客)` `(2023-10-08)`
