@@ -10,9 +10,10 @@ draft: false
 
 ## Blog
 
-- [**AcoFork** Blog Z](https://www.2x.nz/)  
-- [Blog - **atpX**](https://atpx.com/blog/)  
-- [零度博客](https://www.freedidi.com/)  
+- [**AcoFork** Blog Z](https://www.2x.nz/)
+- [Blog - **atpX**](https://atpx.com/blog/)
+- [Nekoya](https://blog.yuuzi.cc/)
+- [零度博客](https://www.freedidi.com/)
 - [宏尘极客|笔记](https://www.hcjike.com/)
 
 
@@ -74,20 +75,20 @@ draft: false
 - [全球主机交流论坛 -  Powered by Discuz!](https://hostloc.com/forum.php) 🪄  
 - [NodeSeek](https://www.nodeseek.com/) 🪄  
 - [V2EX](https://www.v2ex.com/) 🪄  
-- [MT论坛](https://bbs.binmt.cc/)  
-- [吾爱破解 - 52pojie.cn](https://www.52pojie.cn/)  
-- [恩山无线论坛 -  Powered by Discuz!](https://www.right.com.cn/forum/)  
+- [MT论坛](https://bbs.binmt.cc/)
+- [吾爱破解 - 52pojie.cn](https://www.52pojie.cn/)
+- [恩山无线论坛 -  Powered by Discuz!](https://www.right.com.cn/forum/)
 
 
 ## 浏览器插件
-- [Dark Reader](https://microsoftedge.microsoft.com/addons/detail/ifoakfbpdcdoeenechcleahebpibofpc)  
-- [Tampermonkey](https://microsoftedge.microsoft.com/addons/detail/iikmkjmpaadaobahmlepeloendndfphd)  
-- [SingleFile](https://microsoftedge.microsoft.com/addons/detail/singlefile/efnbkdcfmcmnhlkaijjjmhjjgladedno)  
-- [Wayback Machine](https://microsoftedge.microsoft.com/addons/detail/wayback-machine/kjmickeoogghaimmomagaghnogelpcpn)  
+- [Dark Reader](https://microsoftedge.microsoft.com/addons/detail/ifoakfbpdcdoeenechcleahebpibofpc)
+- [Tampermonkey](https://microsoftedge.microsoft.com/addons/detail/iikmkjmpaadaobahmlepeloendndfphd)
+- [SingleFile](https://microsoftedge.microsoft.com/addons/detail/singlefile/efnbkdcfmcmnhlkaijjjmhjjgladedno)
+- [Wayback Machine](https://microsoftedge.microsoft.com/addons/detail/wayback-machine/kjmickeoogghaimmomagaghnogelpcpn)
 - [沉浸式翻译](https://microsoftedge.microsoft.com/addons/detail/amkbmndfnliijdhojkpoglbnaaahippg)
-- [Custom UserAgent String](https://microsoftedge.microsoft.com/addons/detail/adhebfnpnbbncjlfhcjjgollojoklklk)  
-- [Authenticator: 2FA Client](https://microsoftedge.microsoft.com/addons/detail/ocglkepbibnalbgmbachknglpdipeoio)  
-- [Header Editor](https://microsoftedge.microsoft.com/addons/detail/afopnekiinpekooejpchnkgfffaeceko)  
+- [Custom UserAgent String](https://microsoftedge.microsoft.com/addons/detail/adhebfnpnbbncjlfhcjjgollojoklklk)
+- [Authenticator: 2FA Client](https://microsoftedge.microsoft.com/addons/detail/ocglkepbibnalbgmbachknglpdipeoio)
+- [Header Editor](https://microsoftedge.microsoft.com/addons/detail/afopnekiinpekooejpchnkgfffaeceko)
 - [BewlyBewly](https://github.com/hakadao/BewlyBewly) `(哔哩哔哩)`  
 - [bilibili哔哩哔哩下载助手](https://microsoftedge.microsoft.com/addons/detail/bilibili%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B/cagicamgdlbdmonbclkpgiabbldodgae) `(哔哩哔哩)`  
 - [B站图床](https://chromewebstore.google.com/detail/b%E7%AB%99%E5%9B%BE%E5%BA%8A/domljbndjbjgpkhdbmfgmiclggdfojnd) 🪄 `(哔哩哔哩)`  
@@ -102,17 +103,17 @@ draft: false
 
 ## AI
 
-- [Google AI Studio](https://aistudio.google.com/prompts/new_chat)  
-- [Grok](https://grok.com/)  
-- [ChatGPT](https://chat.openai.com/chat)  
-- [Gemini](https://gemini.google.com/app)  
-- [DeepSeek](https://chat.deepseek.com/)  
+- [Google AI Studio](https://aistudio.google.com/prompts/new_chat)
+- [Grok](https://grok.com/)
+- [ChatGPT](https://chat.openai.com/chat)
+- [Gemini](https://gemini.google.com/app)
+- [DeepSeek](https://chat.deepseek.com/)
 
 
 ## 备案
 
-- [萌国ICP备案](https://icp.gov.moe/)  
-- [喵星 ICP 备案](https://icp.hentioe.dev/)  
+- [萌国ICP备案](https://icp.gov.moe/)
+- [喵星 ICP 备案](https://icp.hentioe.dev/)
 - [鱼 ICP 备案系统](https://icp.fishcpy.top/)
 - [雾ICP备案中心](https://icp.wudu.ltd/)
 - [信网联盟](https://icp.xnet.ren/)
@@ -124,25 +125,25 @@ draft: false
 
 ## 有趣网页
 
-- [Dollar Street](https://www.gapminder.org/dollar-street)  
-- [Let`s cook!](https://cook.zdynb.cn/)  
-- [AirPano - A virtual journey around the world](https://www.airpano.com/)  
-- [Neal.fun](https://neal.fun/)  
-- [Wideband shortwave radio receiver map](http://rx.linkfanel.net/)  
+- [Dollar Street](https://www.gapminder.org/dollar-street)
+- [Let`s cook!](https://cook.zdynb.cn/)
+- [AirPano - A virtual journey around the world](https://www.airpano.com/)
+- [Neal.fun](https://neal.fun/)
+- [Wideband shortwave radio receiver map](http://rx.linkfanel.net/)
 
 
 ## Crypto
 
-- [Rootdata](https://www.rootdata.com/)  
-- [CoinTool](https://ct.app/dashboard)  
-- [DefiLlama](https://defillama.com/)  
-- [ChainList](https://chainlist.org/)  
-- [ChainEye](https://chaineye.tools/)  
+- [Rootdata](https://www.rootdata.com/)
+- [CoinTool](https://ct.app/dashboard)
+- [DefiLlama](https://defillama.com/)
+- [ChainList](https://chainlist.org/)
+- [ChainEye](https://chaineye.tools/)
 - [PancakeSwap](https://pancakeswap.finance/)
-- [Dune](https://dune.com/discover/content/trending)  
-- [Solana](https://explorer.solana.com/)  
-- [mempool](https://mempool.space/)  
-- [Public Pool](https://web.public-pool.io/)  
+- [Dune](https://dune.com/discover/content/trending)
+- [Solana](https://explorer.solana.com/)
+- [mempool](https://mempool.space/)
+- [Public Pool](https://web.public-pool.io/)
 - [TradingView](https://cn.tradingview.com/chart/cnAQaaaA/?symbol=BITSTAMP%3ABTCUSD)
 
 
