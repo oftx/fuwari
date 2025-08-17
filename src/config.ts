@@ -80,20 +80,20 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 		LinkPreset.About,
 		{
-			name: "喜好网页",
+			name: "收藏夹",
 			url: "/posts/favorites/", // Internal links should not include the base path, as it is automatically added
 			external: false, // Show an external link icon and will open in a new tab
 		},
 		{
-			name: "文章收藏",
-			url: "/posts/blog-favorites/", // Internal links should not include the base path, as it is automatically added
-			external: false, // Show an external link icon and will open in a new tab
+			name: "好文",
+			url: "/posts/blog-favorites/",
+			external: false,
 		},
 		{
-			name: "萌备跃迁",
-			url: "https://travel.moe/go", // Internal links should not include the base path, as it is automatically added
-			external: true, // Show an external link icon and will open in a new tab
-		},
+			name: "留言板",
+			url: "/posts/comment-wall/",
+			external: false,
+		}
 	],
 };
 
