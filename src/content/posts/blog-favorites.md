@@ -12,6 +12,7 @@ draft: false
 
 ### 技术
 
+- [给你的Fuwari添加一个友链页面](https://blog.aulypc0x0.online/posts/website/add_friendspage_in_fuwari/) `(AULyPc)` `(2024-09-04)`
 - [手把手自托管 Umami](https://adclosenn.top/posts/umami/) `(Ad_closeNN 的小站)` `(2025-08-07)`
 - [给Fuwari博客添加密码保护功能（test123）](https://blog.170529.xyz/posts/password-test/) `(Elysiam)` `(2025-05-29)`
 - [在Vercel上部署Fuwari博客](https://blog.170529.xyz/posts/deploy-fuwari-vercel/) `(Elysiam)` `(2025-05-04)`
