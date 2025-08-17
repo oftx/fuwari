@@ -4,8 +4,58 @@ published: 1111-05-06
 description: 在 Markdown 中使用 Expressive Code 的代码块展示。
 tags: [Markdown, 示例]
 category: 示例
-draft: true
+draft: false
 ---
+
+单条或多条命令（不自动换行/不显示框架/不显示行数字）
+
+```sh showLineNumbers=false wrap=false frame="none"
+nohup ./frps -c frps.toml >> frps.log &
+```
+
+
+终端运行结果（不自动换行/不显示行数字/显示标题）
+
+```bash title="Linux Terminal" showLineNumbers=false wrap=false
+root@hcss-ecs-a3f0:~# systemctl status rustdeskrelay
+● rustdeskrelay.service - Rustdesk Relay Server
+     Loaded: loaded (/etc/systemd/system/rustdeskrelay.service; enabled; vendor preset: enabled)
+     Active: active (running) since Sat 2025-03-15 11:15:04 CST; 58min ago
+   Main PID: 670 (hbbr)
+      Tasks: 5 (limit: 1011)
+     Memory: 3.0M
+        CPU: 1.311s
+     CGroup: /system.slice/rustdeskrelay.service
+             └─670 /opt/rustdesk/hbbr
+
+Mar 15 11:15:04 hcss-ecs-a3f0 systemd[1]: Started Rustdesk Relay Server.
+```
+
+
+文件内容（不自动换行/显示文件名）
+
+```toml title="frpc.toml" /114\.51\.4\.19/ wrap=false
+serverAddr = "114.51.4.19"
+serverPort = 7000
+
+[[proxies]]
+name = "mcjava"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 25565
+remotePort = 25565
+
+[[proxies]]
+name = "mcbedrock"
+type = "udp"
+localIP = "127.0.0.1"
+localPort = 19132
+remotePort = 19132
+```
+
+
+
+- - -
 
 在这里，我们将探索如何使用 [Expressive Code](https://expressive-code.com/) 展示代码块。提供的示例基于官方文档，您可以参考文档获取更多细节。
 
