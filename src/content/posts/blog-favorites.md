@@ -38,3 +38,4 @@ draft: false
 ### 杂谈
 
 - [江油霸凌风波：正义何时才能真正降临？](https://www.nahou.com/posts/jiangyou/) `(呐吼 · 不止于沉默)` `(2025-08-10)`
+- [COVID-19 结束了](https://blog.zhaoxiao.li/17259/) `(曉De部落格)` `(2022-12-07)`
