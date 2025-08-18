@@ -12,6 +12,8 @@ draft: false
 
 ### 技术
 
+- [关闭哪吒面板的ssh权限，避免造成损失](https://blog.qianhuya.me/s/NezhaWAF/) `(千狐的博客)` `(2025-04-19)`
+- [哪吒面板：一款便携服务器状态监控面板](https://www.nbmao.com/archives/4631) `(笨猫博客)` `(2021-02-21)`
 - [使用 Umami API 显示文章阅读量](https://chiehmo.com/blog/show-pageviews-by-umami/) `(芥末 Chiehmo)` `(2024-05-28)`
 - [静态博客也想展示文章浏览量？当然可以！](https://www.2x.nz/posts/static-view/) `(AcoFork Blog Z)` `(2025-06-18)`
 - [给你的Fuwari添加一个友链页面](https://blog.aulypc0x0.online/posts/website/add_friendspage_in_fuwari/) `(AULyPc)` `(2024-09-04)`

@@ -157,6 +157,7 @@ draft: false
 - [维基百科](https://zh.wikipedia.org/) 🪄  
 - [互联网档案馆](https://archive.org/) 🪄  
 - [卜易居在线算命](https://www.buyiju.com/cm/enname/)
+- [取名的哪吒面板](https://mb.qumingla.online/)
 
 
 ## 气象
