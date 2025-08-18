@@ -11,9 +11,7 @@ const currentYear = new Date().getFullYear();
 <!--<div class="transition bg-[oklch(92%_0.01_var(&#45;&#45;hue))] dark:bg-black rounded-2xl py-8 mt-4 mb-8 flex flex-col items-center justify-center px-6">-->
 <div class="transition border-dashed border-[oklch(85%_0.01_var(--hue))] dark:border-white/15 rounded-2xl mb-12 flex flex-col items-center justify-center px-6">
     <div class="transition text-50 text-sm text-center">
-        <div class="flex items-center justify-center gap-1">
-            <span id="site-stats"></span>
-        </div>
+        <a href="https://blogviewdata.netlify.app/share/r7KRmHn8BqeLO512/0f.nz" target="_blank"><span id="site-stats"></span></a><br>
         <a class="transition link text-[var(--primary)] font-medium" target="_blank" href="https://icp.gov.moe/?keyword=20257555">萌ICP备20257555号</a><br>
         &copy; <span id="copyright-year">{currentYear}</span> {profileConfig.name}. All Rights Reserved. /
         <a class="transition link text-[var(--primary)] font-medium" target="_blank" href={url('rss.xml')}>RSS</a> /
@@ -55,15 +53,15 @@ const currentYear = new Date().getFullYear();
             const pageviews = statsData.pageviews?.value || 0;
             const visitors = statsData.visits?.value || 0;
             
-            const statsElement = document.getElementById('site-stats');
-            if (statsElement) {
-                statsElement.textContent = `浏览量 ${pageviews} · 访问数 ${visitors}`;
+            const statsElements = document.querySelectorAll('#site-stats');
+            if (statsElements) {
+                statsElements.forEach(e => e.textContent = `请求量 ${pageviews} • 访客数 ${visitors}`);
             }
         } catch (error) {
             console.error('获取全站统计失败:', error);
-            const statsElement = document.getElementById('site-stats');
-            if (statsElement) {
-                statsElement.textContent = '统计不可用';
+            const statsElements = document.querySelectorAll('#site-stats');
+            if (statsElements) {
+                statsElements.forEach(e => e.textContent = '统计不可用');
             }
         }
     }
