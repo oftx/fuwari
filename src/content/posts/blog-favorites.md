@@ -12,6 +12,8 @@ draft: false
 
 ### 技术
 
+- [使用 Umami API 显示文章阅读量](https://chiehmo.com/blog/show-pageviews-by-umami/) `(芥末 Chiehmo)` `(2024-05-28)`
+- [静态博客也想展示文章浏览量？当然可以！](https://www.2x.nz/posts/static-view/) `(AcoFork Blog Z)` `(2025-06-18)`
 - [给你的Fuwari添加一个友链页面](https://blog.aulypc0x0.online/posts/website/add_friendspage_in_fuwari/) `(AULyPc)` `(2024-09-04)`
 - [手把手自托管 Umami](https://adclosenn.top/posts/umami/) `(Ad_closeNN 的小站)` `(2025-08-07)`
 - [给Fuwari博客添加密码保护功能（test123）](https://blog.170529.xyz/posts/password-test/) `(Elysiam)` `(2025-05-29)`
