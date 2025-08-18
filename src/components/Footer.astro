@@ -1,6 +1,6 @@
 ---
 
-import { profileConfig } from "../config";
+import { profileConfig, umamiConfig } from "../config";
 import { url } from "../utils/url-utils";
 
 const currentYear = new Date().getFullYear();
@@ -11,6 +11,9 @@ const currentYear = new Date().getFullYear();
 <!--<div class="transition bg-[oklch(92%_0.01_var(&#45;&#45;hue))] dark:bg-black rounded-2xl py-8 mt-4 mb-8 flex flex-col items-center justify-center px-6">-->
 <div class="transition border-dashed border-[oklch(85%_0.01_var(--hue))] dark:border-white/15 rounded-2xl mb-12 flex flex-col items-center justify-center px-6">
     <div class="transition text-50 text-sm text-center">
+        <div class="flex items-center justify-center gap-1">
+            <span id="site-stats"></span>
+        </div>
         <a class="transition link text-[var(--primary)] font-medium" target="_blank" href="https://icp.gov.moe/?keyword=20257555">萌ICP备20257555号</a><br>
         &copy; <span id="copyright-year">{currentYear}</span> {profileConfig.name}. All Rights Reserved. /
         <a class="transition link text-[var(--primary)] font-medium" target="_blank" href={url('rss.xml')}>RSS</a> /
@@ -20,3 +23,51 @@ const currentYear = new Date().getFullYear();
         <a class="transition link text-[var(--primary)] font-medium" target="_blank" href="https://github.com/saicaca/fuwari">Fuwari</a>
     </div>
 </div>
+
+<script define:vars={{ umamiConfig }}>
+    // 获取全站访问量统计
+    async function loadSiteStats() {
+        try {
+            // 第一步：调用全局工具获取 Umami 分享数据
+            const { websiteId, token } = await getUmamiShareData(umamiConfig.baseUrl, umamiConfig.shareId);
+            
+            // 第二步：获取全站统计数据（不指定url参数获取全站数据）
+            const currentTimestamp = Date.now();
+            const statsUrl = `https://blogviewdata.netlify.app/api/websites/${websiteId}/stats?startAt=0&endAt=${currentTimestamp}&unit=hour&timezone=Asia/Hong_Kong&compare=false`;
+            
+            const statsResponse = await fetch(statsUrl, {
+                headers: {
+                    'x-umami-share-token': token
+                }
+            });
+            
+            if (statsResponse.status === 401) {
+                // token 失效，清理缓存后重新获取一次
+                clearUmamiShareCache();
+                return await loadSiteStats();
+            }
+
+            if (!statsResponse.ok) {
+                throw new Error('获取统计数据失败');
+            }
+            
+            const statsData = await statsResponse.json();
+            const pageviews = statsData.pageviews?.value || 0;
+            const visitors = statsData.visits?.value || 0;
+            
+            const statsElement = document.getElementById('site-stats');
+            if (statsElement) {
+                statsElement.textContent = `浏览量 ${pageviews} · 访问数 ${visitors}`;
+            }
+        } catch (error) {
+            console.error('获取全站统计失败:', error);
+            const statsElement = document.getElementById('site-stats');
+            if (statsElement) {
+                statsElement.textContent = '统计不可用';
+            }
+        }
+    }
+
+    // 页面加载完成后获取统计数据
+    document.addEventListener('DOMContentLoaded', loadSiteStats);
+</script>

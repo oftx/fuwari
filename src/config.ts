@@ -4,6 +4,7 @@ import type {
 	NavBarConfig,
 	ProfileConfig,
 	SiteConfig,
+	UmamiConfig,
 } from "./types/config";
 import { LinkPreset } from "./types/config";
 
@@ -126,6 +127,13 @@ export const licenseConfig: LicenseConfig = {
 	enable: true,
 	name: "CC BY-NC-SA 4.0",
 	url: "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+};
+
+export const umamiConfig: UmamiConfig = {
+	enable: true,
+	baseUrl: "https://blogviewdata.netlify.app",
+	shareId: "r7KRmHn8BqeLO512",
+	timezone: "Asia/Hong_Kong",
 };
 
 export const expressiveCodeConfig: ExpressiveCodeConfig = {
