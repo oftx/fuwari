@@ -158,6 +158,7 @@ draft: false
 - [互联网档案馆](https://archive.org/) 🪄  
 - [卜易居在线算命](https://www.buyiju.com/cm/enname/)
 - [取名的哪吒面板](https://mb.qumingla.online/)
+- [Windows BSOD Simulator](https://whitescreen.digital/fake-blue-screen-of-death-10)
 
 
 ## 气象

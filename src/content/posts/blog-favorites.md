@@ -12,6 +12,9 @@ draft: false
 
 ### 技术
 
+- [使用GitHub+PicX搭建专用图床（换图床记）](https://blog.lemonstar.me/post/imgbed/) `(柠檬星)` `(2025-08-02)`
+- [Hexo-SEO提交谷歌、百度、必应、360收录](https://www.305871230.xyz/posts/1112220809/) `(游理的小冷屋)` `(2023-07-04)`
+- [论如何下载 Apple Music 的 ALAC 格式音乐](https://blog.qqquq.com/posts/apple-music-alac-download/) `(咸鱼小窝)` `(2024-11-15)`
 - [关闭哪吒面板的ssh权限，避免造成损失](https://blog.qianhuya.me/s/NezhaWAF/) `(千狐的博客)` `(2025-04-19)`
 - [哪吒面板：一款便携服务器状态监控面板](https://www.nbmao.com/archives/4631) `(笨猫博客)` `(2021-02-21)`
 - [使用 Umami API 显示文章阅读量](https://chiehmo.com/blog/show-pageviews-by-umami/) `(芥末 Chiehmo)` `(2024-05-28)`
@@ -37,10 +40,13 @@ draft: false
 
 ### 图片
 
+- [壁纸墙 ✨](https://kasuie.cc/image) `(KASUIEの次元)`
+- [Lovely Girls - 云游君的小站](https://www.yunyoujun.cn/girls/) `(云游君的小站)` `(2020-03-16)`
 - [Yuri图片一览](https://kanochan.net/archives/3587.html) `(Kano酱的博客)` `(2023-10-08)`
 
 
 ### 杂谈
 
+- [办理信用卡应该注意什么](https://yfzhu.cn/posts/1009/) `(阿猪的博客)` `(2024-03-22)`
 - [江油霸凌风波：正义何时才能真正降临？](https://www.nahou.com/posts/jiangyou/) `(呐吼 · 不止于沉默)` `(2025-08-10)`
 - [COVID-19 结束了](https://blog.zhaoxiao.li/17259/) `(曉De部落格)` `(2022-12-07)`
