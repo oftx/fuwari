@@ -101,7 +101,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.gif", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "oftx",
-	bio: "正在通过 IP 地址锁定您的精确地理位置，请稍候...😈",
+	bio: "✨ 这是 oftx 的个人博客，也是他的备忘录/记事本/收藏夹/剪贴板，这里将不定时更新一些记录的内容，欢迎参观！",
 	links: [
 		// {
 		// 	name: "Twitter",
