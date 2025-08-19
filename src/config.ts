@@ -79,7 +79,11 @@ export const navBarConfig: NavBarConfig = {
 	links: [
 		LinkPreset.Home,
 		LinkPreset.Archive,
-		LinkPreset.About,
+		{
+			name: "留言板",
+			url: "/posts/comment-wall/",
+			external: false,
+		},
 		{
 			name: "收藏夹",
 			url: "/posts/favorites/", // Internal links should not include the base path, as it is automatically added
@@ -90,11 +94,7 @@ export const navBarConfig: NavBarConfig = {
 			url: "/posts/blog-favorites/",
 			external: false,
 		},
-		{
-			name: "留言板",
-			url: "/posts/comment-wall/",
-			external: false,
-		}
+		LinkPreset.About,
 	],
 };
 
