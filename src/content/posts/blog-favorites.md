@@ -14,6 +14,8 @@ draft: false
 
 ### 技术
 
+- [对于afoim/fuwari的个人解析](https://fuwari.oh1.top/posts/essay/afoim_fuwari/) `(yCENzh's Blog)` `(2025-08-20)`
+- [Cloudflare账号封禁背后那不为人知的秘密](https://fuwari.oh1.top/posts/essay/cf_ban/) `(yCENzh's Blog)` `(2025-07-31)`
 - [使用GitHub+PicX搭建专用图床（换图床记）](https://blog.lemonstar.me/post/imgbed/) `(柠檬星)` `(2025-08-02)`
 - [Hexo-SEO提交谷歌、百度、必应、360收录](https://www.305871230.xyz/posts/1112220809/) `(游理的小冷屋)` `(2023-07-04)`
 - [论如何下载 Apple Music 的 ALAC 格式音乐](https://blog.qqquq.com/posts/apple-music-alac-download/) `(咸鱼小窝)` `(2024-11-15)`
