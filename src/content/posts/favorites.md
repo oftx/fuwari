@@ -42,6 +42,7 @@ draft: false
 
 - [Yandex Images](https://yandex.com/images/)
 - [TinEye](https://www.tineye.com/)
+- [AnimeTrace](https://www.animetrace.com/)
 - [Anime Scene Search Engine](https://trace.moe/)
 - [Multi-service image search](https://iqdb.org/)
 - [SauceNAO](https://saucenao.com/)
