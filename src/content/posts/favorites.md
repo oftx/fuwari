@@ -142,6 +142,7 @@ draft: false
 
 ## Crypto
 
+- [Kronos](https://shiyu-coder.github.io/Kronos-demo/)
 - [Rootdata](https://www.rootdata.com/)
 - [CoinTool](https://ct.app/dashboard)
 - [DefiLlama](https://defillama.com/)
