@@ -12,7 +12,8 @@ draft: false
 
 ### 技术
 
-- [使用 FFmpeg 製作高品質 GIF，不再有噪點以及殘影！](https://blog.yuuzi.cc/posts/notes/ffmpeg-gif-palette/) `(Nekoya - Yuuzi)` `(2025-08-20)`
+- [给你的Fuwari博客接入bangumi追番列表](https://blog.my0811.cn/posts/bangumi/) `(百里博客)` `(2025-07-28)`
+- [使用 FFmpeg 製作高品質 GIF，不再有噪點以及殘影！](https://blog.yuuzi.cc/posts/notes/ffmpeg-gif-palette/) `(Nekoya - Yuuzi)` `(2025-04-19)`
 - [对于afoim/fuwari的个人解析](https://fuwari.oh1.top/posts/essay/afoim_fuwari/) `(yCENzh's Blog)` `(2025-08-20)`
 - [Cloudflare账号封禁背后那不为人知的秘密](https://fuwari.oh1.top/posts/essay/cf_ban/) `(yCENzh's Blog)` `(2025-07-31)`
 - [使用GitHub+PicX搭建专用图床（换图床记）](https://blog.lemonstar.me/post/imgbed/) `(柠檬星)` `(2025-08-02)`
