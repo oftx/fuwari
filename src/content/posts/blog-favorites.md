@@ -12,6 +12,7 @@ draft: false
 
 ### 技术
 
+- [用tunnelbroker和warp获得全世界大部分ip](https://blog.mckero.com/posts/tunnelbroker-ip/) `(MC_Kero)` `(2025-08-28)`
 - [给你的Fuwari博客接入bangumi追番列表](https://blog.my0811.cn/posts/bangumi/) `(百里博客)` `(2025-07-28)`
 - [使用 FFmpeg 製作高品質 GIF，不再有噪點以及殘影！](https://blog.yuuzi.cc/posts/notes/ffmpeg-gif-palette/) `(Nekoya - Yuuzi)` `(2025-04-19)`
 - [对于afoim/fuwari的个人解析](https://fuwari.oh1.top/posts/essay/afoim_fuwari/) `(yCENzh's Blog)` `(2025-08-20)`
