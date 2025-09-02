@@ -2,7 +2,7 @@
 title: 记录在 Google Search Console 添加自己的域名
 published: 2025-08-19
 description: 本文描述作者接触到 Google Search Console 并在其中成功添加自己的域名
-image: ../../assets/images/google-search-console/1537888507229.jpg
+image: ../../assets/images/google-search-console/head.png
 tags: [记录, Google, SEO]
 category: 记录
 draft: false

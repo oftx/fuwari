@@ -2,7 +2,7 @@
 title: 自部署 RustDesk 服务端
 published: 2025-03-15
 description: 自部署 RustDesk 服务端 - 借助脚本一键搭建远程桌面 ID 服务器(Linux)
-image: ''
+image: ../../assets/images/rustdesk-server/head.png
 tags: [记录]
 category: 记录
 draft: false
