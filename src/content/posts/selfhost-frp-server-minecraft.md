@@ -2,7 +2,7 @@
 title: 自部署 frp 内网穿透服务
 published: 2024-12-07
 description: 自部署 frp 使公网访问内网服务，以内网穿透 Minecraft 服务端为例
-image: ''
+image: ../../assets/images/selfhost-frp-server-minecraft/head.png
 tags: [记录]
 category: 记录
 draft: false 
