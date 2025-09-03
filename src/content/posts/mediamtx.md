@@ -2,7 +2,7 @@
 title: 配置 MediaMTX 认证、录制，测试推流
 published: 2025-08-31
 description: 在 Windows 上配置 MediaMTX 媒体服务器的认证、录制，并测试推流
-image: ''
+image: ../../assets/images/mediamtx/head.png
 tags: [记录]
 category: 记录
 draft: false
@@ -40,10 +40,10 @@ draft: false
 虽然 MediaMTX 是开箱即用的，但是配置时需要一些额外的东西。  
 在开始配置前，你可能需要准备：
 
-1. Linux 环境或在线 Argon2 哈希生成器
+1. Linux 环境或在线 Argon2 哈希生成器  
 在配置用户认证时，需要用到 Argon2 命令生成加密后的账号和密码。有 Linux 环境可以方便运行命令，使用在线的 Argon2 哈希生成器也可以。
 
-2. [OBS Studio](https://obsproject.com/download) 等推流软件
+2. [OBS Studio](https://obsproject.com/download) 等推流软件  
 用于向服务端推流。
 
 以上就是可能需要准备的东西，准备好后可以开始进行配置。
