@@ -2,9 +2,9 @@
 title: Emoji 列表
 published: 2025-08-20
 description: ''
-image: ''
+image: ../../assets/images/emoji-list/head.png
 tags: []
-category: ''
+category: 收集
 draft: false
 ---
 
