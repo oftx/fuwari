@@ -12,6 +12,7 @@ draft: false
 
 ### 技术
 
+- [编译自己的Linux发行版](https://blog.mckero.com/posts/my-linux/) `(MC_Kero)` `(2025-09-06)`
 - [用tunnelbroker和warp获得全世界大部分ip](https://blog.mckero.com/posts/tunnelbroker-ip/) `(MC_Kero)` `(2025-08-28)`
 - [给你的Fuwari博客接入bangumi追番列表](https://blog.my0811.cn/posts/bangumi/) `(百里博客)` `(2025-07-28)`
 - [使用 FFmpeg 製作高品質 GIF，不再有噪點以及殘影！](https://blog.yuuzi.cc/posts/notes/ffmpeg-gif-palette/) `(Nekoya - Yuuzi)` `(2025-04-19)`
