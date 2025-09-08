@@ -12,6 +12,7 @@ draft: false
 
 ### 技术
 
+- [如何提高网站的SEO？](https://2x.nz/posts/improve-seo/) `(AcoFork Blog)` `(2025-07-30)`
 - [编译自己的Linux发行版](https://blog.mckero.com/posts/my-linux/) `(MC_Kero)` `(2025-09-06)`
 - [用tunnelbroker和warp获得全世界大部分ip](https://blog.mckero.com/posts/tunnelbroker-ip/) `(MC_Kero)` `(2025-08-28)`
 - [给你的Fuwari博客接入bangumi追番列表](https://blog.my0811.cn/posts/bangumi/) `(百里博客)` `(2025-07-28)`
@@ -24,7 +25,7 @@ draft: false
 - [关闭哪吒面板的ssh权限，避免造成损失](https://blog.qianhuya.me/s/NezhaWAF/) `(千狐的博客)` `(2025-04-19)`
 - [哪吒面板：一款便携服务器状态监控面板](https://www.nbmao.com/archives/4631) `(笨猫博客)` `(2021-02-21)`
 - [使用 Umami API 显示文章阅读量](https://chiehmo.com/blog/show-pageviews-by-umami/) `(芥末 Chiehmo)` `(2024-05-28)`
-- [静态博客也想展示文章浏览量？当然可以！](https://www.2x.nz/posts/static-view/) `(AcoFork Blog Z)` `(2025-06-18)`
+- [静态博客也想展示文章浏览量？当然可以！](https://www.2x.nz/posts/static-view/) `(AcoFork Blog)` `(2025-06-18)`
 - [给你的Fuwari添加一个友链页面](https://blog.aulypc0x0.online/posts/website/add_friendspage_in_fuwari/) `(AULyPc)` `(2024-09-04)`
 - [手把手自托管 Umami](https://adclosenn.top/posts/umami/) `(Ad_closeNN 的小站)` `(2025-08-07)`
 - [给Fuwari博客添加密码保护功能（test123）](https://blog.170529.xyz/posts/password-test/) `(Elysiam)` `(2025-05-29)`
@@ -36,7 +37,7 @@ draft: false
 - [搭建个人博客教程与优化记录](https://blog.imxizhen.asia/posts/%E6%95%99%E7%A8%8B/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/#%E5%8F%82%E8%80%83%E6%96%87%E7%AB%A0) `(imxizhenのBlog)` `(2025-04-19)`
 - [Fuwari RSS 图片路径修复指北](https://blog.isyyo.com/posts/fuwari_rss_pictures/) `(Wer Blog)` `(2025-08-11)`
 - [你是否设想过在浏览器里玩千恋万花](https://fuwari.oh1.top/posts/serenbanka/serenbanka-web/) `(yCENzh's Blog)` `(2025-08-03)`
-- [Fuwari静态博客搭建教程](https://www.2x.nz/posts/fuwari/) `(AcoFork Blog Z)` `(2025-04-30)`
+- [Fuwari静态博客搭建教程](https://www.2x.nz/posts/fuwari/) `(AcoFork Blog)` `(2025-04-30)`
 
 
 ### 好玩
