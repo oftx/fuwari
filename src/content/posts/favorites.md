@@ -17,6 +17,11 @@ draft: false
 - [宏尘极客|笔记](https://www.hcjike.com/)
 
 
+## 文档
+
+- [freemediaheckyeah](https://fmhy.net/)
+
+
 ## 影子图书馆
 
 - [Z-Library](https://z-library.sk/) 🪄  
