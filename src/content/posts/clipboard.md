@@ -10,7 +10,7 @@ draft: false
 
 deploy daily-fortune-api and restart its service
 ```
-cd /var/www/daily-fortune-api/ && git fetch origin && git reset --hard main/origin
+cd /var/www/daily-fortune-api/ && git fetch origin && git reset --hard origin/main
 sudo systemctl restart daily-fortune-api --no-pager
 sudo systemctl status daily-fortune-api --no-pager
 ```
