@@ -30,6 +30,11 @@ python项目
 tree . -L 3 --prune -I "venv" > t.txt && find . -type f \( -name "*.py" -o -name "*.md" \) -not -path "./venv/*" -exec echo "" \; -exec echo "=== {} ===" \; -exec cat {} \; >> t.txt
 ```
 
+android项目
+```
+tree . -L 2 > t.txt && find . -path '*/build' -prune -o -type f \( -name "*.xml" -o -name "*.properties" -o -name "*.java" -o -name "*.kt" -o -name "*.kts" \) -exec echo "" \; -exec echo "=== {} ===" \; -exec cat {} \; >> t.txt
+```
+
 提示词
 
 ```
