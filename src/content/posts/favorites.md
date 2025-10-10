@@ -10,6 +10,7 @@ draft: false
 
 ## Blog
 
+- [开放者独立博客大全](https://blog.kaifangzhe.com/)
 - [**AcoFork** Blog Z](https://www.2x.nz/)
 - [Blog - **atpX**](https://atpx.com/blog/)
 - [Nekoya](https://blog.yuuzi.cc/)
@@ -56,6 +57,8 @@ draft: false
 
 ## 工具
 
+- [将任何项目导出为文本文件](https://project2txt.com/zh-CN/)
+- [虚拟货币实时价格](https://logjs.site/coin_monitor.html)
 - [Text To Speech](https://www.text-to-speech.cn/)
 - [Quick Reference](https://quickref.cn/)
 
