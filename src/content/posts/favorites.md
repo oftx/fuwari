@@ -177,3 +177,9 @@ draft: false
 - [天气实况_卫星云图_FY2E彩色云图](https://www.nmc.cn/publish/satellite/fy2.htm)
 - [Windy: Wind map & weather forecast](https://www.windy.com/)
 - [Ventusky](https://www.ventusky.com/)
+
+
+## 域名购买
+
+- [porkbun.com](https://porkbun.com/)
+- [NameSilo](https://www.namesilo.com/)
