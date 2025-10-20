@@ -25,13 +25,13 @@ draft: false
 
 ## 影子图书馆
 
-- [Z-Library](https://z-library.sk/) 🪄  
-- [WeLib](https://zh.welib.org/) 🪄  
-- [Libgen+ GS](https://libgen.gs/) 🪄  
-- [Liber3](https://liber3.eth.limo/) 🪄  
-- [Anna’s Archive](https://annas-archive.org/) 🪄  
-- [MotW](https://library.memoryoftheworld.org/) 🪄  
-- [Sci-Hub](https://sci-hub.ru) 🪄  
+- [Z-Library](https://z-library.sk/)  
+- [WeLib](https://zh.welib.org/)  
+- [Libgen+ GS](https://libgen.gs/)  
+- [Liber3](https://liber3.eth.limo/)  
+- [Anna’s Archive](https://annas-archive.org/)  
+- [MotW](https://library.memoryoftheworld.org/)  
+- [Sci-Hub](https://sci-hub.ru)  
 - [SLUM](https://open-slum.org/) `(影子图书馆服务状态监控)`  
 - ~~[GitHub](https://github.com/)~~  
 - ~~[GitCode](https://gitcode.com/)~~  
@@ -86,9 +86,9 @@ draft: false
 
 ## 论坛
 
-- [全球主机交流论坛 -  Powered by Discuz!](https://hostloc.com/forum.php) 🪄  
-- [NodeSeek](https://www.nodeseek.com/) 🪄  
-- [V2EX](https://www.v2ex.com/) 🪄  
+- [全球主机交流论坛 -  Powered by Discuz!](https://hostloc.com/forum.php)  
+- [NodeSeek](https://www.nodeseek.com/)  
+- [V2EX](https://www.v2ex.com/)  
 - [MT论坛](https://bbs.binmt.cc/)
 - [吾爱破解 - 52pojie.cn](https://www.52pojie.cn/)
 - [恩山无线论坛 -  Powered by Discuz!](https://www.right.com.cn/forum/)
@@ -105,14 +105,15 @@ draft: false
 - [Header Editor](https://microsoftedge.microsoft.com/addons/detail/afopnekiinpekooejpchnkgfffaeceko)
 - [BewlyBewly](https://github.com/hakadao/BewlyBewly) `(哔哩哔哩)`  
 - [bilibili哔哩哔哩下载助手](https://microsoftedge.microsoft.com/addons/detail/bilibili%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B/cagicamgdlbdmonbclkpgiabbldodgae) `(哔哩哔哩)`  
-- [B站图床](https://chromewebstore.google.com/detail/b%E7%AB%99%E5%9B%BE%E5%BA%8A/domljbndjbjgpkhdbmfgmiclggdfojnd) 🪄 `(哔哩哔哩)`  
-- [Twitch Channel Points Autoclicker](https://microsoftedge.microsoft.com/addons/detail/lndbggkcoalcjgclcpeojibgjcoegcbk) `(Twitch)`  
-- [7TV](https://chromewebstore.google.com/detail/ammjkodgmmoknidbanneddgankgfejfh) 🪄 `(Twitch)`  
-- [Alternate Player for Twitch.tv](https://chromewebstore.google.com/detail/bhplkbgoehhhddaoolmakpocnenplmhf) 🪄 `(Twitch)`  
-- [BetterTTV](https://chromewebstore.google.com/detail/ajopnjidmegmdimjlfnijceegpefgped) 🪄 `(Twitch)`  
-- [FrankerFaceZ](https://chromewebstore.google.com/detail/frankerfacez/fadndhdgpmmaapbmfcknlfgcflmmmieb) 🪄 `(Twitch)`  
+- [B站图床](https://chromewebstore.google.com/detail/b%E7%AB%99%E5%9B%BE%E5%BA%8A/domljbndjbjgpkhdbmfgmiclggdfojnd) `(哔哩哔哩)`  
+- [Twitch Channel Points Autoclicker](https://chromewebstore.google.com/detail/twitch-channel-points-aut/jdpblpklojajpopllbckephjndibljbc) `(Twitch)`  
+- [7TV](https://chromewebstore.google.com/detail/ammjkodgmmoknidbanneddgankgfejfh) `(Twitch)`  
+- ~~[Alternate Player for Twitch.tv](https://chromewebstore.google.com/detail/bhplkbgoehhhddaoolmakpocnenplmhf)~~ `(Twitch)`  
+- [Previews (For TTV & YT)](https://chromewebstore.google.com/detail/previews-for-ttv-yt/hpmbiinljekjjcjgijnlbmgcmoonclah) `(Twitch)` `(YouTube)`  
+- [BetterTTV](https://chromewebstore.google.com/detail/ajopnjidmegmdimjlfnijceegpefgped) `(Twitch)`  
+- [FrankerFaceZ](https://chromewebstore.google.com/detail/frankerfacez/fadndhdgpmmaapbmfcknlfgcflmmmieb) `(Twitch)`  
 - [vidIQ Vision for YouTube](https://microsoftedge.microsoft.com/addons/detail/adccfkchphhccahbdnfdcfdgefjcdfmh) `(YouTube)`  
-- [Return YouTube Dislike](https://chromewebstore.google.com/detail/gebbhagfogifgggkldgodflihgfeippi) 🪄 `(YouTube)`    
+- [Return YouTube Dislike](https://chromewebstore.google.com/detail/gebbhagfogifgggkldgodflihgfeippi) `(YouTube)`    
 
 
 ## AI
@@ -164,8 +165,8 @@ draft: false
 
 ## 未知类别
 
-- [维基百科](https://zh.wikipedia.org/) 🪄  
-- [互联网档案馆](https://archive.org/) 🪄  
+- [维基百科](https://zh.wikipedia.org/)  
+- [互联网档案馆](https://archive.org/)  
 - [卜易居在线算命](https://www.buyiju.com/cm/enname/)
 - [取名的哪吒面板](https://mb.qumingla.online/)
 - [Windows BSOD Simulator](https://whitescreen.digital/fake-blue-screen-of-death-10)
