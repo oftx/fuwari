@@ -12,6 +12,7 @@ draft: false
 
 ### 技术
 
+- [两个月重度使用 AI Code Agent：普通一线程序员的思考和感想](https://jt26wzz.com/posts/0013-ai-coding/) `(从不说安全词)` `(2025-10-20)`
 - [如何提高网站的SEO？](https://2x.nz/posts/improve-seo/) `(AcoFork Blog)` `(2025-07-30)`
 - [编译自己的Linux发行版](https://blog.mckero.com/posts/my-linux/) `(MC_Kero)` `(2025-09-06)`
 - [用tunnelbroker和warp获得全世界大部分ip](https://blog.mckero.com/posts/tunnelbroker-ip/) `(MC_Kero)` `(2025-08-28)`
