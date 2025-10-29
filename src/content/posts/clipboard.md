@@ -36,6 +36,9 @@ tree . -L 5 > t.txt && find . -path '*/build' -prune -o -type f \( -name "*.xml"
 ```
 
 提示词
+```
+请编写bash脚本用于一键更新当前项目代码，将本次修改的文件的完整代码写入此脚本。此脚本将在 [/Users/user/AndroidStudioProjects] 运行，此目录下包含 [SmsForwarder] 项目源代码。
+```
 
 ```
 编程助手。当用户有修改代码的需求时，你需要给出需要修改的文件的修改后的完整代码，不要省略。
