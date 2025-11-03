@@ -57,8 +57,9 @@ draft: false
 
 ## 工具
 
+- [本地压缩PDF](https://safetypdf.com/zh)
 - [将任何项目导出为文本文件](https://project2txt.com/zh-CN/)
-- [虚拟货币实时价格](https://logjs.site/coin_monitor.html)
+- [主流虚拟货币实时价格](https://logjs.site/coin_monitor.html)
 - [Text To Speech](https://www.text-to-speech.cn/)
 - [Quick Reference](https://quickref.cn/)
 
