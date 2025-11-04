@@ -57,6 +57,7 @@ draft: false
 
 ## 工具
 
+- [免费在线AI批量背景去除工具](https://bgsweep.com/zh)
 - [本地压缩PDF](https://safetypdf.com/zh)
 - [将任何项目导出为文本文件](https://project2txt.com/zh-CN/)
 - [主流虚拟货币实时价格](https://logjs.site/coin_monitor.html)
