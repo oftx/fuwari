@@ -12,6 +12,8 @@ draft: false
 
 ### 技术
 
+- [探索 Misskey 的无服务部署](https://eri.cx/exploring-serverless-misskey-deployment/) `(Eric's Blog)` `(2025-01-22)`
+- [搭建属于自己的去中心化社交平台 Misskey](https://eri.cx/build-your-own-decentralized-social-platform-misskey/) `(Eric's Blog)` `(2022-06-01)`
 - [自用DD 纯净Linux系统脚本分享](https://www.xiaoge.org/archives/dd-linux-system) `(XiaoGe)` `(2024-07-16)`
 - [两个月重度使用 AI Code Agent：普通一线程序员的思考和感想](https://jt26wzz.com/posts/0013-ai-coding/) `(从不说安全词)` `(2025-10-20)`
 - [如何提高网站的SEO？](https://2x.nz/posts/improve-seo/) `(AcoFork Blog)` `(2025-07-30)`
