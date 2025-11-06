@@ -142,6 +142,7 @@ draft: false
 
 ## 有趣网页
 
+- [AI Trading in Real Markets](https://nof1.ai/)
 - [Handhelds Space](https://handhelds.space/)
 - [Dollar Street](https://www.gapminder.org/dollar-street)
 - [Let`s cook!](https://cook.zdynb.cn/)
