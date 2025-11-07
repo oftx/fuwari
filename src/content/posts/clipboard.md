@@ -8,6 +8,11 @@ category: 剪贴板
 draft: false 
 ---
 
+git clone proxy
+```
+https_proxy=http://127.0.0.1:7897 git clone [REPO_URL]
+```
+
 deploy daily-fortune-api and restart its service
 ```
 cd /var/www/daily-fortune-api/ && git fetch origin && git reset --hard origin/main
