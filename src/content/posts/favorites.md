@@ -21,6 +21,7 @@ draft: false
 ## 文档
 
 - [freemediaheckyeah](https://fmhy.net/)
+- [中國哲學書電子化計劃](https://ctext.org/zh)
 
 
 ## 影子图书馆
