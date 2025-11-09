@@ -12,6 +12,7 @@ draft: false
 
 ### 技术
 
+- [Misskey | 在 Docker 中大版本升级 Misskey](https://blog.tantalum.life/posts/upgrade-misskey-to-a-major-version-in-docker/)
 - [BlueskyとMisskey間で相互フォローする](https://note.com/99cafe/n/nf24f95277a5c) `(99cafe@note.com)` `(2024-09-27)`
 - [Misskey——自建一个去中心化社交平台](https://leonxie.cn/archives/misskey-deploy#%E6%88%90%E6%9E%9C%E5%B1%95%E7%A4%BA) `(LeonXieの小窝)` `(2025-09-06)`
 - [探索 Misskey 的无服务部署](https://eri.cx/exploring-serverless-misskey-deployment/) `(Eric's Blog)` `(2025-01-22)`
