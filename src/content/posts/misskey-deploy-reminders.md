@@ -53,56 +53,83 @@ git clone -b master https://github.com/misskey-dev/misskey.git
 
 另外，我使用了 certbot 实现 SSL 证书自动部署。
 
-可用的配置内容参考：
+可用的配置内容参考（来自官方文档）：
 ```conf title="/etc/nginx/conf.d/misskey.conf" wrap=false
-server {
-
-    server_name <替换为你的域名>;
-
-    # 客户端可上传的最大文件大小
-    client_max_body_size 60M;
-
-    location / {
-        proxy_pass http://127.0.0.1:7001;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_set_header X-Forwarded-Proto $scheme;
-
-        # *** WebSocket 支持 ***
-        proxy_set_header Upgrade $http_upgrade;
-        proxy_set_header Connection "upgrade";
-        proxy_read_timeout 86400;
-        proxy_send_timeout 86400;
-        proxy_buffering off;
-        # ************************
-    }
-
-    listen [::]:443 ssl ipv6only=on; # managed by Certbot
-    listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/<替换为你的域名>/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/<替换为你的域名>/privkey.pem; # managed by Certbot
-    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
-    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-
+# For WebSocket
+map $http_upgrade $connection_upgrade {
+    default upgrade;
+    ''      close;
 }
+
+proxy_cache_path /tmp/nginx_cache levels=1:2 keys_zone=cache1:16m max_size=1g inactive=720m use_temp_path=off;
+
 server {
-    if ($host = <替换为你的域名>) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
     listen 80;
     listen [::]:80;
-
     server_name <替换为你的域名>;
-    return 404; # managed by Certbot
 
+    # For SSL domain validation
+    root /var/www/html;
+    location /.well-known/acme-challenge/ { allow all; }
+    location /.well-known/pki-validation/ { allow all; }
+    location / { return 301 https://$server_name$request_uri; }
+}
 
+server {
+    listen 443 ssl;
+    listen [::]:443 ssl;
+    http2 on;
+    server_name <替换为你的域名>;
+
+    ssl_session_timeout 1d;
+    ssl_session_cache shared:ssl_session_cache:10m;
+    ssl_session_tickets off;
+
+    # To use Let's Encrypt certificate
+    ssl_certificate     /etc/letsencrypt/live/<替换为你的域名>/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/<替换为你的域名>/privkey.pem;
+
+    # To use Debian/Ubuntu's self-signed certificate (For testing or before issuing a certificate)
+    #ssl_certificate     /etc/ssl/certs/ssl-cert-snakeoil.pem;
+    #ssl_certificate_key /etc/ssl/private/ssl-cert-snakeoil.key;
+
+    # SSL protocol settings
+    ssl_protocols TLSv1.2 TLSv1.3;
+    ssl_ciphers ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:DHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384;
+    ssl_prefer_server_ciphers off;
+    ssl_stapling on;
+    ssl_stapling_verify on;
+
+    # Change to your upload limit
+    client_max_body_size 80m;
+
+    # Proxy to Node
+    location / {
+        proxy_pass http://127.0.0.1:3000;
+        proxy_set_header Host $host;
+        proxy_http_version 1.1;
+        proxy_redirect off;
+
+        # If it's behind another reverse proxy or CDN, remove the following.
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto https;
+
+        # For WebSocket
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection $connection_upgrade;
+
+        # Cache settings
+        proxy_cache cache1;
+        proxy_cache_lock on;
+        proxy_cache_use_stale updating;
+        proxy_force_ranges on;
+        add_header X-Cache $upstream_cache_status;
+    }
 }
 ```
 
-官方文档已经有关于[Nginxの設定](https://misskey-hub.net/cn/docs/for-admin/install/resources/nginx/)的说明~~，但我在配置过程中只是一味地按照 AI 的操作指令做事，几乎没有看官方文档，AI 确实仍然不够可靠。~~
+官方文档已经有关于[Nginxの設定](https://misskey-hub.net/cn/docs/for-admin/install/resources/nginx/)的说明，但我在配置过程中只是一味地按照 AI 的操作指令做事，几乎没有看官方文档，AI 确实仍然不够可靠。
 
 ## 5️⃣ 错误配置对象存储
 
@@ -139,7 +166,10 @@ https://objectstorage.ap-tokyo-1.oraclecloud.com/n/n14514191981/b/misskey-media/
 
 ## 6️⃣ 添加中继总是显示“待审核”
 
-添加中继总是显示“待审核”，大概是因为部署 Misskey 主机的网络问题，大陆网络无法访问这些中继的网站，所以应该使代理时刻保持启用以访问资源。
+添加中继总是显示“待审核”，大概是因为部署 Misskey 主机的网络问题，大陆网络无法访问这些中继的网站，可以使用代理以便访问网站，中继添加完成后可关闭代理。
+
+> 如果主机处于中国大陆网络环境，关闭代理后将无法访问那些在中国大陆无法访问的实例，即便本实例用户处于国际网络环境，也无法搜索到位于那些实例的用户。
+
 
 # 其他的话
 
