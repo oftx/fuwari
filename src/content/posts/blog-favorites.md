@@ -12,6 +12,7 @@ draft: false
 
 ### 技术
 
+- [MisskeyのBotである藍ちゃんにAIチャット機能を追加したプルリクエストがマージされた](https://marukot-ch.hatenablog.com/entry/2025/01/05/005158) `(marukot-chの日記)` `(2025-01-12)`
 - [为什么我不推荐 Nostr 和 Fediverse?](https://blog.cxplay.org/works/why-dont-i-recommend-use-nostr-and-fediverse/) `(CXPLAY World)` `(2024-01-20)`
 - [Misskey | 在 Docker 中大版本升级 Misskey](https://blog.tantalum.life/posts/upgrade-misskey-to-a-major-version-in-docker/) `(Zoe's Dumpster.)` `(2024-02-06)`
 - [BlueskyとMisskey間で相互フォローする](https://note.com/99cafe/n/nf24f95277a5c) `(99cafe@note.com)` `(2024-09-27)`
