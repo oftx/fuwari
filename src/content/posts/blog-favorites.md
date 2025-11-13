@@ -12,6 +12,7 @@ draft: false
 
 ### 技术
 
+- [Cloudflare tunnel内网穿透使用优选IP，提升访问速度](https://www.brmys.ac.cn/12a04bb0-45d4-804b-903b-e13233157e40) `(苏苏个人博客)` `(2025-02-11)`
 - [Cloudflare Tunnel速度慢？尝试给它加个前置代理提高速度](https://blog.xmgspace.me/archives/cloudflare-tunnel-via-proxy.html) `(Xiaomage's Blog)` `(2024-02-19)`
 - [玩转Cloudflare（3）——使用优选IP加速你的Tunnel内网穿透服务](https://loohui.com/%E7%8E%A9%E8%BD%ACcloudflare%EF%BC%883%EF%BC%89-%E4%BD%BF%E7%94%A8%E4%BC%98%E9%80%89ip%E5%8A%A0%E9%80%9F%E4%BD%A0%E7%9A%84tunnel%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E6%9C%8D%E5%8A%A1/) `(BuriburiZaemon)` `(2025-07-08)`
 - [MisskeyのBotである藍ちゃんにAIチャット機能を追加したプルリクエストがマージされた](https://marukot-ch.hatenablog.com/entry/2025/01/05/005158) `(marukot-chの日記)` `(2025-01-12)`
