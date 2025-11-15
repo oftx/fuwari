@@ -10,11 +10,11 @@ draft: false
 
 ## Blog
 
+- [NoHeartPen's Digital Garden](https://publish.obsidian.md/noheartpen/index)
 - [开放者独立博客大全](https://blog.kaifangzhe.com/)
 - [**AcoFork** Blog Z](https://www.2x.nz/)
 - [Blog - **atpX**](https://atpx.com/blog/)
 - [Nekoya](https://blog.yuuzi.cc/)
-- [零度博客](https://www.freedidi.com/)
 - [宏尘极客|笔记](https://www.hcjike.com/)
 
 
