@@ -12,6 +12,7 @@ draft: false
 
 ### 技术
 
+- [如何部署 NocoBase 才更快](https://www.nocobase.com/cn/tutorials/how-to-deploy-nocobase-faster) `(NocoBase 教程)` `(2025-04-16)`
 - [CloudflareTunnel访问加速 | 无需公网IP | SaaS 回源 | 优选域名 | 新手教程](https://blog.nbvil.com/nat/tunnelsaas/) `(Newbie Village)` `(2025-11-11)`
 - [Cloudflare tunnel内网穿透使用优选IP，提升访问速度](https://www.brmys.ac.cn/12a04bb0-45d4-804b-903b-e13233157e40) `(苏苏个人博客)` `(2025-02-11)`
 - [Cloudflare Tunnel速度慢？尝试给它加个前置代理提高速度](https://blog.xmgspace.me/archives/cloudflare-tunnel-via-proxy.html) `(Xiaomage's Blog)` `(2024-02-19)`
