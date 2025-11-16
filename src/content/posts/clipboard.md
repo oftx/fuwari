@@ -1,6 +1,6 @@
 ---
 title: 剪贴板
-published: 2025-09-27
+published: 1970-01-01
 description: 保存文本以备忘
 image: ''
 tags: [剪贴板]

@@ -77,11 +77,10 @@ export const siteConfig: SiteConfig = {
 
 export const navBarConfig: NavBarConfig = {
 	links: [
-		LinkPreset.Home,
 		LinkPreset.Archive,
 		{
-			name: "留言板",
-			url: "/posts/comment-wall/",
+			name: "剪贴板",
+			url: "/posts/clipboard/",
 			external: false,
 		},
 		{
