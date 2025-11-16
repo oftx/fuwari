@@ -12,6 +12,8 @@ draft: false
 
 ### 技术
 
+- [\[应用\] 微软Office365 E3订阅回归？25个E3 Dev免费开通指南](https://forum.naixi.net/forum.php?mod=viewthread&tid=6702&extra=page%3D1&page=1) `(dswqgu@奶昔论坛)` `(2025-11-13)`
+- [永久免费OneDrive 5T，MS 365 E3保姆级拿下教程！](https://blog.2b2x.cn/posts/ms-e3/) `(AcoFork Blog)` `(2025-11-14)`
 - [如何部署 NocoBase 才更快](https://www.nocobase.com/cn/tutorials/how-to-deploy-nocobase-faster) `(NocoBase 教程)` `(2025-04-16)`
 - [CloudflareTunnel访问加速 | 无需公网IP | SaaS 回源 | 优选域名 | 新手教程](https://blog.nbvil.com/nat/tunnelsaas/) `(Newbie Village)` `(2025-11-11)`
 - [Cloudflare tunnel内网穿透使用优选IP，提升访问速度](https://www.brmys.ac.cn/12a04bb0-45d4-804b-903b-e13233157e40) `(苏苏个人博客)` `(2025-02-11)`
