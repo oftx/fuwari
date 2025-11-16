@@ -12,6 +12,7 @@ draft: false
 
 ### 技术
 
+- [申请e3扩容5T存储，出现Error trying to get OneDrive settings的过来看看，教你解决](https://ashlord.com/archives/24) `(solaireh3)` `(2025-11-14)`
 - [\[应用\] 微软Office365 E3订阅回归？25个E3 Dev免费开通指南](https://forum.naixi.net/forum.php?mod=viewthread&tid=6702&extra=page%3D1&page=1) `(dswqgu@奶昔论坛)` `(2025-11-13)`
 - [永久免费OneDrive 5T，MS 365 E3保姆级拿下教程！](https://blog.2b2x.cn/posts/ms-e3/) `(AcoFork Blog)` `(2025-11-14)`
 - [如何部署 NocoBase 才更快](https://www.nocobase.com/cn/tutorials/how-to-deploy-nocobase-faster) `(NocoBase 教程)` `(2025-04-16)`
