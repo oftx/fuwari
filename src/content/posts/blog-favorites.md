@@ -12,6 +12,7 @@ draft: false
 
 ### 技术
 
+- [GitHubのPull Requestを完全に削除する方法](https://qiita.com/haroya01/items/4276cf993f1b7b0de6f5) `(haroya01@Qiita)` `(2024-12-24)`
 - [Cloudflare outage on November 18, 2025](https://blog.cloudflare.com/18-november-2025-outage/) `(The Cloudflare Blog)` `(2025-11-18)`
 - [从零部署 Gemini Balance 手册之clawcloud上部署sqlite版本](https://gb-docs.snaily.top/guide/setup-clawcloud-sqlite.html) `(Gemini Balance 项目文档)`
 - [申请e3扩容5T存储，出现Error trying to get OneDrive settings的过来看看，教你解决](https://ashlord.com/archives/24) `(solaireh3)` `(2025-11-14)`
