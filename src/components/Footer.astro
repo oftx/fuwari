@@ -24,14 +24,14 @@ const currentYear = new Date().getFullYear();
 
 <script define:vars={{ umamiConfig }}>
     // 获取全站访问量统计
-    async function loadSiteStats() {
+    async function loadSiteStats(retryCount = 0) {
         try {
             // 第一步：调用全局工具获取 Umami 分享数据
             const { websiteId, token } = await getUmamiShareData(umamiConfig.baseUrl, umamiConfig.shareId);
             
             // 第二步：获取全站统计数据（不指定url参数获取全站数据）
             const currentTimestamp = Date.now();
-            const statsUrl = `https://blogviewdata.netlify.app/api/websites/${websiteId}/stats?startAt=0&endAt=${currentTimestamp}&unit=hour&timezone=Asia/Hong_Kong&compare=false`;
+            const statsUrl = `https://blogviewdata.netlify.app/api/websites/${websiteId}/stats?startAt=1763977923072&endAt=${currentTimestamp}&unit=hour&timezone=Asia/Hong_Kong&compare=false`;
             
             const statsResponse = await fetch(statsUrl, {
                 headers: {
@@ -40,18 +40,22 @@ const currentYear = new Date().getFullYear();
             });
             
             if (statsResponse.status === 401) {
-                // token 失效，清理缓存后重新获取一次
-                clearUmamiShareCache();
-                return await loadSiteStats();
+                if (retryCount < 1) {
+                    console.warn('[Umami] Token expired or invalid for site stats, retrying...');
+                    clearUmamiShareCache();
+                    return await loadSiteStats(retryCount + 1);
+                } else {
+                    throw new Error('Unauthorized (401) after retry');
+                }
             }
 
             if (!statsResponse.ok) {
-                throw new Error('获取统计数据失败');
+                throw new Error(`获取统计数据失败: ${statsResponse.status} ${statsResponse.statusText}`);
             }
             
             const statsData = await statsResponse.json();
-            const pageviews = statsData.pageviews?.value || 0;
-            const visitors = statsData.visits?.value || 0;
+            const pageviews = statsData.pageviews || 0;
+            const visitors = statsData.visits || 0;
             
             const statsElements = document.querySelectorAll('#site-stats');
             if (statsElements) {

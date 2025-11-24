@@ -113,14 +113,14 @@ const { remarkPluginFrontmatter } = await entry.render();
 
 <script define:vars={{ entry, umamiConfig }}>
     // 获取文章浏览量统计
-    async function fetchPostCardViews(slug) {
+    async function fetchPostCardViews(slug, retryCount = 0) {
         try {
             // 第一步：调用全局工具获取 Umami 分享数据
             const { websiteId, token } = await getUmamiShareData(umamiConfig.baseUrl, umamiConfig.shareId);
             
             // 第二步：获取统计数据
             const currentTimestamp = Date.now();
-            const statsUrl = `https://blogviewdata.netlify.app/api/websites/${websiteId}/stats?startAt=0&endAt=${currentTimestamp}&unit=hour&timezone=Asia/Hong_Kong&url=%2Fposts%2F${slug}%2F&compare=false`;
+            const statsUrl = `https://blogviewdata.netlify.app/api/websites/${websiteId}/stats?startAt=1763977923072&endAt=${currentTimestamp}&unit=hour&timezone=Asia/Hong_Kong&path=%2Fposts%2F${slug}%2F&compare=false`;
 
             const statsResponse = await fetch(statsUrl, {
                 headers: {
@@ -129,21 +129,26 @@ const { remarkPluginFrontmatter } = await entry.render();
             });
 
             if (statsResponse.status === 401) {
-                clearUmamiShareCache();
-                return await fetchPostCardViews(slug);
+                if (retryCount < 1) {
+                    console.warn(`[Umami] Token expired or invalid for ${slug}, retrying...`);
+                    clearUmamiShareCache();
+                    return await fetchPostCardViews(slug, retryCount + 1);
+                } else {
+                    throw new Error('Unauthorized (401) after retry');
+                }
             }
 
             if (!statsResponse.ok) {
-                throw new Error('获取统计数据失败');
+                throw new Error(`获取统计数据失败: ${statsResponse.status} ${statsResponse.statusText}`);
             }
             
             const statsData = await statsResponse.json();
-            // const pageViews = statsData.pageviews?.value || 0;
-            const visits = statsData.visits?.value || 0;
+            const pageViews = statsData.pageviews || 0;
+            // const visits = statsData.visits || 0;
             
             const displayElement = document.getElementById(`page-views-${slug}`);
             if (displayElement) {
-                displayElement.textContent = `${visits} 阅读量`;
+                displayElement.textContent = `${pageViews} 阅读量`;
             }
         } catch (error) {
             console.error('Error fetching page views for', slug, ':', error);
