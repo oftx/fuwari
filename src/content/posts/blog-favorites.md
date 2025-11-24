@@ -12,6 +12,7 @@ draft: false
 
 ### 技术
 
+- [逆向修改 macOS Alt+Tab 行为 && 编写沙箱注入器](https://kekeimiku.github.io/post/mac_alt_tab_fix/) `(kekeimiku)` `(2025-11-23)`
 - [GitHubのPull Requestを完全に削除する方法](https://qiita.com/haroya01/items/4276cf993f1b7b0de6f5) `(haroya01@Qiita)` `(2024-12-24)`
 - [Cloudflare outage on November 18, 2025](https://blog.cloudflare.com/18-november-2025-outage/) `(The Cloudflare Blog)` `(2025-11-18)`
 - [从零部署 Gemini Balance 手册之clawcloud上部署sqlite版本](https://gb-docs.snaily.top/guide/setup-clawcloud-sqlite.html) `(Gemini Balance 项目文档)`
