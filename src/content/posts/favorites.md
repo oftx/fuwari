@@ -58,6 +58,7 @@ draft: false
 
 ## 工具
 
+- [Onedrive直链解析工具](https://silverisky.com/onedrive)
 - [免费在线AI批量背景去除工具](https://bgsweep.com/zh)
 - [本地压缩PDF](https://safetypdf.com/zh)
 - [将任何项目导出为文本文件](https://project2txt.com/zh-CN/)
