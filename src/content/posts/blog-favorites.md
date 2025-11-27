@@ -12,6 +12,7 @@ draft: false
 
 ### 技术
 
+- [一次无侵入式脚本注入木马排查过程的详细记录](https://wuyudong.com/2025/08/24/3407.html) `(Wu Yudong's Blog)` `(2025-08-24)`
 - [新到手的 Linux 服务器，我这样设置](https://blog.dejavu.moe/posts/new-linux-server-setup-guide/) `(Dejavu's Blog)` `(2025-11-25)`
 - [逆向修改 macOS Alt+Tab 行为 && 编写沙箱注入器](https://kekeimiku.github.io/post/mac_alt_tab_fix/) `(kekeimiku)` `(2025-11-23)`
 - [GitHubのPull Requestを完全に削除する方法](https://qiita.com/haroya01/items/4276cf993f1b7b0de6f5) `(haroya01@Qiita)` `(2024-12-24)`
