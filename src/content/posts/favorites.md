@@ -58,6 +58,7 @@ draft: false
 
 ## 工具
 
+- [Capcut SRT Export](https://www.biyaoyun.com/capcutsrt)
 - [Onedrive直链解析工具](https://silverisky.com/onedrive)
 - [免费在线AI批量背景去除工具](https://bgsweep.com/zh)
 - [本地压缩PDF](https://safetypdf.com/zh)
@@ -118,15 +119,6 @@ draft: false
 - [FrankerFaceZ](https://chromewebstore.google.com/detail/frankerfacez/fadndhdgpmmaapbmfcknlfgcflmmmieb) `(Twitch)`  
 - [vidIQ Vision for YouTube](https://microsoftedge.microsoft.com/addons/detail/adccfkchphhccahbdnfdcfdgefjcdfmh) `(YouTube)`  
 - [Return YouTube Dislike](https://chromewebstore.google.com/detail/gebbhagfogifgggkldgodflihgfeippi) `(YouTube)`    
-
-
-## AI
-
-- [Google AI Studio](https://aistudio.google.com/prompts/new_chat)
-- [Grok](https://grok.com/)
-- [ChatGPT](https://chat.openai.com/chat)
-- [Gemini](https://gemini.google.com/app)
-- [DeepSeek](https://chat.deepseek.com/)
 
 
 ## 备案
