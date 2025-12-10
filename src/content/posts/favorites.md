@@ -145,6 +145,18 @@ draft: false
 - [Wideband shortwave radio receiver map](http://rx.linkfanel.net/)
 
 
+## HTTP Status Cats
+
+- [HTTP Cats](https://http.cat/)
+- [HTTP Status Dogs API](https://http.dog/)
+- [HTTP Status Fish API](https://http.fish/)
+- [HTTP Gardens API](https://http.garden/)
+- [HTTP Status Pizzas API](https://http.pizza/)
+- [HTTP Status Cats API](https://httpcats.com/)
+- [HTTP Status Goats API](https://httpgoats.com/)
+- [HTTP Status Ducks API](https://httpducks.com/)
+
+
 ## Crypto
 
 - [Kronos](https://shiyu-coder.github.io/Kronos-demo/)
